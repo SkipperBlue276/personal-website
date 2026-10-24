@@ -1,0 +1,10 @@
+body {
+    
+    --bgcolor: #191919;
+    --cpink: #fd7690;
+    --cpurple: #7c5792;
+    --cpurpledark: #583d68;
+    --cgreen: #57ac95;
+
+    background-color: var(--bgcolor);
+}
