@@ -5,6 +5,7 @@ body {
     --cpurple: #7c5792;
     --cpurpledark: #2a1c31;
     --cgreen: #57ac95;
+    --cpeach: #feac8e;
 
     background-color: var(--bgcolor);
     display: flex;
