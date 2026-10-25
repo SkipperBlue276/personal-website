@@ -22,6 +22,18 @@ ul {
     padding-left: 30px;
     margin-bottom: 20px;
 }
+a { 
+    color: var(--cpink);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--cgreen);
+    transition-duration: 200ms;
+}
+p {
+    max-width: 600px;
+    margin: 20px 0px;
+}
 .nav-container > ul {
     display: flex;
 }
@@ -35,22 +47,17 @@ ul {
     margin: auto;
     padding: 20px;
 }
+.body-container > img {
+    max-width: 600px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 4px;
+    border-color: var(--cpeach);
+}
 
 .links > li {
     margin: 5px 0px;
     color: var(--cpink);
-}
-a { 
-    color: var(--cpink);
-    text-decoration: none;
-}
-a:hover {
-    color: var(--cgreen);
-    transition-duration: 200ms;
-}
-p {
-    max-width: 600px;
-    margin: 20px 0px;
 }
 
 .title {
