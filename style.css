@@ -7,10 +7,12 @@ body {
     --cgreen: #57ac95;
     --cpeach: #feac8e;
 
-    background-color: var(--bgcolor);
+    background-color: var(--cpurpledark);
     display: flex;
+    align-items: center;
     margin: 0px;
     padding: 0px;
+    min-height: 100vh;
     font-family: monospace;
     color: var(--cpeach)
 
@@ -18,7 +20,16 @@ body {
 ul {
     list-style: none;
     padding-left: 30px;
+    margin-bottom: 20px;
 }
+
+.body-container {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 20px;
+}
+
 .links > li {
     margin: 5px 0px;
     color: var(--cpink);
@@ -27,13 +38,9 @@ ul {
     color: var(--cpink);
     text-decoration: none;
 }
-
-.body-container {
-    background-color: var(--cpurpledark);
-    height: 100vh;
-    width: 700px;
-    margin: auto;
-    padding: 20px;
+.links > li > a:hover {
+    color: var(--cgreen);
+    transition-duration: 100ms;
 }
 
 .title {
