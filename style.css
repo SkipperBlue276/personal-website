@@ -22,6 +22,12 @@ ul {
     padding-left: 30px;
     margin-bottom: 20px;
 }
+.nav-container > ul {
+    display: flex;
+}
+.nav-container > ul > li {
+    margin: 5px;
+}
 
 .body-container {
     height: auto;
@@ -34,13 +40,17 @@ ul {
     margin: 5px 0px;
     color: var(--cpink);
 }
-.links > li > a { 
+a { 
     color: var(--cpink);
     text-decoration: none;
 }
-.links > li > a:hover {
+a:hover {
     color: var(--cgreen);
-    transition-duration: 100ms;
+    transition-duration: 200ms;
+}
+p {
+    max-width: 600px;
+    margin: 20px 0px;
 }
 
 .title {
