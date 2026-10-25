@@ -15,17 +15,29 @@ body {
     color: var(--cpeach)
 
 }
+ul {
+    list-style: none;
+    padding-left: 30px;
+}
+.links > li {
+    margin: 5px 0px;
+    color: var(--cpink);
+}
+.links > li > a { 
+    color: var(--cpink);
+    text-decoration: none;
+}
 
 .body-container {
-    display: flex;
     background-color: var(--cpurpledark);
     height: 100vh;
     width: 700px;
     margin: auto;
+    padding: 20px;
 }
 
 .title {
-    margin: 20px;
+    margin-bottom: 20px;
 }
 .title > h1 {
     font-size: 40px;
